@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+  .menu-wrapper {
+    width: 650px;
+  }
+
+  /* Hero Container CSS Start here */
+  .hero-contents {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .hero-left {
+    padding-left: 80px;
+  }
+  .hero-title {
+    font-size: 4rem;
+    text-align: left;
+    width: 60%;
+    margin-right: auto;
+  }
+  .hero-btns {
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  /* Services Section CSS Start Here */
+
+  .services-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  /* Services Slider Section CSS Start Here */
+  .services-slider {
+    padding: 4rem 2rem;
+  }
+  .slider-title-wrapper {
+    padding-bottom: 4rem;
+    position: relative;
+  }
+  .slider-title {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  /* Footer Section CSS Start Here */
+  .footer-contents {
+    flex-direction: row;
+    padding: 3rem;
+  }
+  .footer-left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-left-col-title {
+    font-size: 4rem;
+  }
+  .footer-left-col-pera {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  .footer-left-col-bottom {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
